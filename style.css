@@ -1,0 +1,124 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+background:#0077b6;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* Navbar */
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* Sections */
+
+section{
+padding:30px;
+margin:20px;
+background:white;
+border-radius:8px;
+}
+
+/* Fraud Cards */
+
+.fraud-container{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+background:#e9ecef;
+padding:20px;
+width:220px;
+border-radius:8px;
+text-align:center;
+}
+
+.card:hover{
+background:#dee2e6;
+}
+
+/* Buttons */
+
+button{
+padding:8px 15px;
+border:none;
+background:#0077b6;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#023e8a;
+}
+
+/* Footer */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+section{
+text-align:center;
+}
+
+iframe{
+margin:15px;
+border-radius:10px;
+}
+/* Dark Mode */
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark header{
+background:#000;
+}
+
+.dark nav{
+background:#111;
+}
+
+.dark section{
+background:#1e1e1e;
+color:white;
+}
+
+.dark .card{
+background:#2c2c2c;
+color:white;
+}
+
+.dark footer{
+background:#000;
+}
